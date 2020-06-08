@@ -13,6 +13,8 @@ jobs:
         version:
           - 1.5.76
           - 1.6.6
+          - 1.6.10
+          - 1.6.12 
     steps:
       - uses: actions/checkout@v2
       - run: |
